@@ -9,3 +9,10 @@
    * `./status-code.sh -h`
 # Usage
 `./script.sh -d example.com -o output.txt`
+
+
+- `-d` option: This is used to specify a single domain to test. For example, if you want to test the domain example.com, you would use the command `./script.sh -d example.com`
+
+- `-l` option: This is used to specify an input file containing subdomains to test. For example, if you have a file named subdomains.txt with one subdomain per line, you would use the command `./script.sh -l subdomains.txt`
+
+- Remember, you can combine these options as needed. For instance, if you want to test a single domain and save the results to a file, you could use `./script.sh -d example.com -o output.txt`
