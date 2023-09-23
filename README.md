@@ -3,11 +3,11 @@
 
   ![403-pybass](https://github.com/diiablo00/403-bypass/assets/140319882/59e779e9-0f53-4e40-89c5-230d98fa1774)
 # Features
--This bash script is designed to test for potential 403 bypasses on a domain or a list of subdomains. It sends GET requests with various payloads and headers, and prints the requested URL along with the status code. If a 403 error is bypassed, it could indicate a potential security vulnerability.
+- This bash script is designed to test for potential 403 bypasses on a domain or a list of subdomains. It sends GET requests with various payloads and headers, and prints the requested URL along with the status code. If a 403 error is bypassed, it could indicate a potential security vulnerability.
 
--In addition to this, the script also tests both HTTP and HTTPS protocols. This is crucial as the server’s response might differ based on the protocol used. The script will automatically switch between HTTP and HTTPS while sending the requests, providing a more comprehensive assessment of the server’s security configuration.
+- In addition to this, the script also tests both HTTP and HTTPS protocols. This is crucial as the server’s response might differ based on the protocol used. The script will automatically switch between HTTP and HTTPS while sending the requests, providing a more comprehensive assessment of the server’s security configuration.
 
--Remember, identifying a 403 bypass can be a significant finding during a penetration test or bug bounty hunt, as it may lead to unauthorized access to sensitive information or functionality. Always ensure you have permission to perform these tests to avoid any legal issues. Happy hunting!
+- Remember, identifying a 403 bypass can be a significant finding during a penetration test or bug bounty hunt, as it may lead to unauthorized access to sensitive information or functionality. Always ensure you have permission to perform these tests to avoid any legal issues. Happy hunting!
 # Installation
    * `git clone https://github.com/diiablo00/403-bypass`
    * `cd 403-bypass`
