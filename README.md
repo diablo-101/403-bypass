@@ -1,6 +1,6 @@
 # 403-bypass
 - This is a bash script for testing potential 403 bypasses in web security by sending various payloads and headers to a domain or list of subdomains.
-  ![403-pybass](https://github.com/diiablo00/403-bypass/assets/140319882/86b8d125-c100-43bc-94b9-ddd7a1a051b5)
+  ![403-pybass](https://github.com/diiablo00/403-bypass/assets/140319882/59e779e9-0f53-4e40-89c5-230d98fa1774)
 # Features
 - This bash script is designed to test for 403 bypasses on a domain or a list of subdomains. It sends GET requests with various payloads and headers, and prints the requested URL along with the status code. If a 403 error is bypassed, it could indicate a potential security vulnerability.
 # Installation
