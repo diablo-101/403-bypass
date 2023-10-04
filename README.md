@@ -14,8 +14,10 @@
    * `chmod +x headers.sh`
    * `chmod +x user-agent-fuzz.sh`
    * `chmod +x methods.sh`
-   
 
 # Usage
 
-* `./403-bypass.sh -h`
+* `./method-header.sh -h`
+* `./headers.sh -h`
+* `./user-agent-fuzz.sh -h`
+* `./methods.sh -h`
