@@ -10,8 +10,12 @@
 
    * `git clone https://github.com/diiablo00/403-bypass`
    * `cd 403-bypass`
-   * `chmod +x 403-bypass.sh`
-   * `./403-bypass.sh -h`
+   * `chmod +x method-header.sh`
+   * `chmod +x headers.sh`
+   * `chmod +x user-agent-fuzz.sh`
+   * `chmod +x methods.sh`
+   
 
 # Usage
 
+* `./403-bypass.sh -h`
