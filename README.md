@@ -4,7 +4,7 @@
 
 # Features
 
-- For an in-depth understanding of the features offered by this tool, I invite you to visit my Medium website. The link provided will guide you to a wealth of information tailored to enhance your user experience and broaden your knowledge about the tool's capabilities. Your journey to mastery begins with a single click. 
+- For an in-depth understanding of the features offered by this tool, I invite you to visit my Medium website. The link provided will guide you to a wealth of information tailored to enhance your user experience and broaden your knowledge about the tool's capabilities. Your journey to mastery begins with a single click. `https://medium.com/@diablo1/bypassing-403-forbidden-a-guide-for-cybersecurity-professionals-7b2225991595`
 
 # Installation
 
