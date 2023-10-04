@@ -15,5 +15,5 @@
 
 # Usage
 
-- see documentation [here]([myLib/README.md](https://medium.com/@diablo1/bypassing-403-forbidden-a-guide-for-cybersecurity-professionals-7b2225991595)https://medium.com/@diablo1/bypassing-403-forbidden-a-guide-for-cybersecurity-professionals-7b2225991595)
+- eg. [click here](www.google.com)
 
