@@ -15,5 +15,6 @@
 
 # Usage
 
-- eg. [click here](www.google.com)
+[Medium username](https://medium.com/@medium_username)
+
 
