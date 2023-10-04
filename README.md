@@ -15,6 +15,6 @@
 
 # Usage
 
-
+[click]([https://medium.com/@medium_username](https://medium.com/@diablo1/bypassing-403-forbidden-a-guide-for-cybersecurity-professionals-7b2225991595)https://medium.com/@diablo1/bypassing-403-forbidden-a-guide-for-cybersecurity-professionals-7b2225991595)
 
 
