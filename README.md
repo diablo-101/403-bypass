@@ -38,6 +38,9 @@ Here is a screenshots of each tool:
   `./method-header.sh -h`
 ![Screenshot_2023-10-05_03_49_59](https://github.com/diiablo00/403-bypass/assets/140319882/bfd304a4-3964-44ab-b12a-d3d7c9f1963f)
 
+  `./method-header.sh -d www.google.com`
+![Screenshot_2023-10-05_03_51_24](https://github.com/diiablo00/403-bypass/assets/140319882/3ecaf856-5941-41ac-b004-5faf39049081)
+
 
 # Contribution
 
