@@ -42,8 +42,11 @@ You can also watch a demo video of the tool here:
 
 # Contribution
 
-If you want to contribute to this project, feel free to fork it and submit a pull request. You can also report any issues or suggestions on the [Issues](^5^) page.
+If you want to contribute to this project, feel free to fork it and submit a pull request. You can also report any issues or suggestions on the [Issues](https://github.com/diiablo00/403-bypass/issues) page.
 
 # Contact
 
-If you have any questions or feedback, you can contact me at diablo00@protonmail.com or follow me on [Twitter](https://twitter.com/abosalahiscool) and . I'd love to hear from you!
+If you have any questions or feedback, you can follow me on
+- Twitter: [diablo0_diablo](https://twitter.com/diablo0_diablo)
+- Instagram: [diablo0_diablo](https://www.instagram.com/diablo0_diablo/)
+   I'd love to hear from you!
