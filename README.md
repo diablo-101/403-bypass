@@ -34,11 +34,10 @@ You can also view the help menu of each script by using the `-h` option.
 
 Here is a screenshots of each tool:
 
-- method-header.sh
-  `./method-header.sh -h`
+`./method-header.sh -h`
 ![Screenshot_2023-10-05_03_49_59](https://github.com/diiablo00/403-bypass/assets/140319882/bfd304a4-3964-44ab-b12a-d3d7c9f1963f)
 
-  `./method-header.sh -d www.google.com`
+`./method-header.sh -d www.google.com`
 ![Screenshot_2023-10-05_03_51_24](https://github.com/diiablo00/403-bypass/assets/140319882/3ecaf856-5941-41ac-b004-5faf39049081)
 
 `./headers.sh -h`
@@ -52,6 +51,12 @@ Here is a screenshots of each tool:
 
 `./user-agent-fuzz.sh -u https://www.google.com -w list.txt`
 ![Screenshot_2023-10-05_03_58_35](https://github.com/diiablo00/403-bypass/assets/140319882/d906b0a1-1684-4216-8442-c4dc026f22b9)
+
+`./methods.sh -h`
+![Screenshot_2023-10-05_03_54_44](https://github.com/diiablo00/403-bypass/assets/140319882/e500f0e6-15cc-4e8b-8601-1198893b4416)
+
+`./methods.sh -d www.google.com`
+![Screenshot_2023-10-05_03_55_05](https://github.com/diiablo00/403-bypass/assets/140319882/0254666b-fd7e-4ec7-ab0e-912d1e0c6de2)
 
 # Contribution
 
