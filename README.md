@@ -32,13 +32,12 @@ You can also view the help menu of each script by using the `-h` option.
 
 # Demo
 
-Here is a screenshot of the tool in action:
+Here is a screenshots of each tool:
 
-![Screenshot](^2^)
+- method-header.sh
+  `./method-header.sh -h`
+![Screenshot_2023-10-05_03_49_59](https://github.com/diiablo00/403-bypass/assets/140319882/bfd304a4-3964-44ab-b12a-d3d7c9f1963f)
 
-You can also watch a demo video of the tool here:
-
-[Watch Demo](^3^)
 
 # Contribution
 
