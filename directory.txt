@@ -1,0 +1,297 @@
+ /admin
+/admin
+ /administrator
+/administrator
+ .asp
+/.asp
+ /backup
+/backup
+ .bak
+/.bak
+ .bash_history
+/.bash_history
+ .bash_profile
+/.bash_profile
+ .bashrc
+/.bashrc
+ .config
+ /config
+/.config
+/config
+ /config.asp
+/config.asp
+ /config.aspx
+/config.aspx
+ /config.bak
+/config.bak
+ /config.bak.txt
+/config.bak.txt
+ /config.bkp
+/config.bkp
+ /config.conf
+/config.conf
+ /config.htm
+/config.htm
+ /config.html
+/config.html
+ /config.inc
+/config.inc
+ /config.ini
+/config.ini
+ /config.json
+/config.json
+ /config.jsp
+/config.jsp
+ /config.jsp.asp
+/config.jsp.asp
+ /config.jsp.aspx
+/config.jsp.aspx
+ /config.jsp.bak
+/config.jsp.bak
+ /config.jsp.bak.txt
+/config.jsp.bak.txt
+ /config.jsp.bkp
+/config.jsp.bkp
+ /config.jsp.bkp.txt
+/config.jsp.bkp.txt
+ /config.jsp.htm
+/config.jsp.htm
+ /config.jsp.html
+/config.jsp.html
+ /config.jsp.ini
+/config.jsp.ini
+ /config.jsp.json
+/config.jsp.json
+ /config.jsp.old
+/config.jsp.old
+ /config.jsp.old.txt
+/config.jsp.old.txt
+ /config.jsp.phtml
+/config.jsp.phtml
+ /config.jsp.shtml
+/config.jsp.shtml
+ /config.jsp.txt
+/config.jsp.txt
+ /config.jsp.xml
+/config.jsp.xml
+ /config.jsp.yaml
+/config.jsp.yaml
+ /config.jsp.yml
+/config.jsp.yml
+ /config.old
+/config.old
+ /config.php
+/config.php
+ /config.php.asp
+/config.php.asp
+ /config.php.aspx
+/config.php.aspx
+ /config.php.bak
+/config.php.bak
+ /config.php.bkp
+/config.php.bkp
+ /config.php.conf
+/config.php.conf
+ /config.php.htm
+/config.php.htm
+ /config.php.html
+/config.php.html
+ /config.php.inc
+/config.php.inc
+ /config.php.ini
+/config.php.ini
+ /config.php.json
+/config.php.json
+ /config.php.jsp
+/config.php.jsp
+ /config.php.jsp.asp
+/config.php.jsp.asp
+ /config.php.jsp.aspx
+/config.php.jsp.aspx
+ /config.php.jsp.bak
+/config.php.jsp.bak
+ /config.php.jsp.bak.txt
+/config.php.jsp.bak.txt
+ /config.php.jsp.bkp
+/config.php.jsp.bkp
+ /config.php.jsp.bkp.txt
+/config.php.jsp.bkp.txt
+ /config.php.jsp.htm
+/config.php.jsp.htm
+ /config.php.jsp.html
+/config.php.jsp.html
+ /config.php.jsp.ini
+/config.php.jsp.ini
+ /config.php.jsp.json
+/config.php.jsp.json
+ /config.php.jsp.old
+/config.php.jsp.old
+ /config.php.jsp.old.txt
+/config.php.jsp.old.txt
+ /config.php.jsp.phtml
+/config.php.jsp.phtml
+ /config.php.jsp.shtml
+/config.php.jsp.shtml
+ /config.php.jsp.txt
+/config.php.jsp.txt
+ /config.php.jsp.xml
+/config.php.jsp.xml
+ /config.php.jsp.yaml
+/config.php.jsp.yaml
+ /config.php.jsp.yml
+/config.php.jsp.yml
+ /config.php.old
+/config.php.old
+ /config.php.phtml
+/config.php.phtml
+ /config.php.shtml
+/config.php.shtml
+ /config.php.xml
+/config.php.xml
+ /config.php.yaml
+/config.php.yaml
+ /config.php.yml
+ /config.phtml
+/config.phtml
+ /config.shtml
+/config.shtml
+ /config.txt
+/config.txt
+ /config.xml
+/config.xml
+ /config.yaml
+/config.yaml
+ /config.yml
+/config.yml/config.php.yml
+ /console
+/console
+ .css
+/.css
+ /data
+/data
+ .doc
+/.doc
+ .DS_Store
+/.DS_Store
+ .env
+/.env
+ .env.bak
+/.env.bak
+ .env.bak.php
+/.env.bak.php
+ .env.development
+/.env.development
+ .env.development.php
+/.env.development.php
+ .env.local
+/.env.local
+ .env.local.php
+/.env.local.php
+ .env.php
+/.env.php
+ .env.production
+/.env.production
+ .env.production.php
+/.env.production.php
+ .env.staging
+/.env.staging
+ .env.staging.php
+/.env.staging.php
+ .env.test
+/.env.test
+ .env.test.php
+/.env.test.php
+/etc/passwd
+ /etc/shadow
+/etc/shadow
+ .gif
+/.gif
+ .git
+/.git
+ .gitignore
+/.gitignore
+ .gz
+/.gz
+ .htaccess
+/.htaccess
+ .htm
+/.htm
+ .html
+/.html
+ .htpasswd
+/.htpasswd
+ .idea
+/.idea
+ .inc
+/.inc
+ .jpg
+/.jpg
+ .js
+/.js
+.json
+/.json
+ .jsp
+/.jsp
+ /lib
+/lib
+ /library
+/library
+ /libs
+/libs
+ /login
+/login
+ .old
+/.old
+ .pdf
+/.pdf
+ .php
+/.php
+ .php3
+/.php3
+ .php4
+/.php4
+ .php5
+/.php5
+ /phpmyadmin
+/phpmyadmin
+ .phtml
+/.phtml
+ .png
+/.png
+ /proc/self/environ
+/proc/self/environ
+ /shell
+/shell
+ .shtml
+/.shtml
+ .ssh/authorized_keys
+/.ssh/authorized_keys
+ .svn
+/.svn
+ .swp
+/.swp
+ .tar
+/.tar
+ .temp
+ /temp
+/.temp
+/temp
+ /tmp
+/tmp
+ .txt
+/.txt
+ /upload
+/upload
+ /uploads
+/uploads
+/WEB-INF
+ /wp-admin
+/wp-admin
+ /wp-config.php
+/wp-config.php
+ .xls
+/.xls
+ .xml
+/.xml
+ .zip
+/.zip
