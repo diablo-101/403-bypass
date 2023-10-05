@@ -41,6 +41,17 @@ Here is a screenshots of each tool:
   `./method-header.sh -d www.google.com`
 ![Screenshot_2023-10-05_03_51_24](https://github.com/diiablo00/403-bypass/assets/140319882/3ecaf856-5941-41ac-b004-5faf39049081)
 
+`./headers.sh -h`
+![Screenshot_2023-10-05_03_56_13](https://github.com/diiablo00/403-bypass/assets/140319882/0357f9ba-ab02-4397-8165-e65891d66248)
+
+`./headers.sh -d www.google.com`
+![Screenshot_2023-10-05_03_56_37](https://github.com/diiablo00/403-bypass/assets/140319882/a1f2e501-2744-4035-a68e-506c41667992)
+
+`./user-agent-fuzz.sh -h`
+![Screenshot_2023-10-05_03_57_52](https://github.com/diiablo00/403-bypass/assets/140319882/f11eea14-1b13-4fe5-b06c-8318d63f454d)
+
+`./user-agent-fuzz.sh -u https://www.google.com -w list.txt`
+![Screenshot_2023-10-05_03_58_35](https://github.com/diiablo00/403-bypass/assets/140319882/d906b0a1-1684-4216-8442-c4dc026f22b9)
 
 # Contribution
 
