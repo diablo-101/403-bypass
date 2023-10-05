@@ -68,3 +68,19 @@ If you have any questions or feedback, you can follow me on
 - Twitter: [diablo0_diablo](https://twitter.com/diablo0_diablo)
 - Instagram: [diablo0_diablo](https://www.instagram.com/diablo0_diablo/)
    I'd love to hear from you!
+
+# Articles
+
+For further reading and understanding, here are some articles that provide more insights into bypassing 403 protections:
+
+- [Bypassing 403 Protection To Get Pagespeed Admin Access](https://sapt.medium.com/bypassing-403-protection-to-get-pagespeed-admin-access-822fab64c0b3)
+- [Bypassing Multiple 403 Response Type Pages](https://medium.com/@Dhamuharker/bypassing-403-response-type-pages-f2f37975ae29)
+- [New technique 403 bypass lyncdiscover.microsoft.com](https://infosecwriteups.com/403-bypass-lyncdiscover-microsoft-com-db2778458c33)
+- [How I bypassed 403 forbidden domain using a simple trick](https://systemweakness.com/how-i-bypassed-403-forbidden-domain-using-a-simple-trick-c2d538de04b8)
+- [How to bypass 403 forbidden bypass](https://security-sphinx.medium.com/how-to-bypass-403-forbidden-bypass-2330acc69069)
+- [How 403 Forbidden Bypass got me NOKIA Hall Of Fame (HOF)](https://infosecwriteups.com/how-403-forbidden-bypass-got-me-nokia-hall-of-fame-hof-8acbd2c1c2c8)
+- [403 forbidden bypass leads to HALL OF FAME](https://infosecwriteups.com/403-forbidden-bypass-leads-to-hall-of-fame-ff61ccd0a71e)
+
+These articles provide valuable insights and practical examples of bypassing 403 protections. They can be a great resource for anyone interested in web security.
+
+Remember, always stay updated and keep learning!
