@@ -5,7 +5,7 @@ Are you interested in web security and want to test your skills against potentia
 # Features
 
 - This tool offers four different scripts, each with its own unique functionality and options.
-- You can use `method-header.sh` to test different HTTP methods, headers and HTTP versions work together against the target URL.
+- You can use `method-header.sh` to test different HTTP methods, headers, HTTP protocol and HTTP versions work together against the target URL.
 - You can use `headers.sh` to fuzz various headers with different values against a target URL.
 - You can use `user-agent-fuzz.sh` to fuzz the user-agent header with different values against a target URL.
 - You can use `methods.sh` to test different HTTP methods against a target URL.
@@ -17,10 +17,7 @@ To install this tool, simply follow these steps:
 
    * `git clone https://github.com/diiablo00/403-bypass`
    * `cd 403-bypass`
-   * `chmod +x method-header.sh`
-   * `chmod +x headers.sh`
-   * `chmod +x user-agent-fuzz.sh`
-   * `chmod +x methods.sh`
+   * `chmod +x *.sh`
 
 # Usage
 
