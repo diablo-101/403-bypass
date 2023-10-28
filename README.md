@@ -184,7 +184,7 @@ Are you interested in web security and want to test your skills against potentia
                 You can use <code>user-agent-fuzz.sh</code> to fuzz the user-agent header with different values against a target URL.
             </li>
             <li>
-                It does not have a default User Agent list
+                It does not have a default User Agent list. You can add your own list using the <code>-w</code> option, like this <code>./user-agent-fuzz.sh -u https://www.google.com -w list.txt</code>
             </li>
         </ul>
     </li>
