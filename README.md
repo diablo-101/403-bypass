@@ -158,13 +158,6 @@ Are you interested in web security and want to test your skills against potentia
             <li>
                 You can use <code>headers.sh</code> to fuzz various headers with different values against a target URL.
             </li>
-        </ul>
-    </li>
-    <li><h3>user-agent-fuzz.sh</h3>
-        <ul>
-            <li>
-                You can use <code>user-agent-fuzz.sh</code> to fuzz the user-agent header with different values against a target URL.
-            </li>
             <li>
                 The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./header.sh -d domain.com -w header: value</code>
             </li>
@@ -183,6 +176,13 @@ Are you interested in web security and want to test your skills against potentia
                     <li>Cluster-Client-IP: 127.0.0.1</li>
                     <li>Host: localhost</li>
                 </ul>
+        </ul>
+    </li>
+    <li><h3>user-agent-fuzz.sh</h3>
+        <ul>
+            <li>
+                You can use <code>user-agent-fuzz.sh</code> to fuzz the user-agent header with different values against a target URL.
+            </li>
         </ul>
     </li>
     <li><h3>methods.sh</h3>
