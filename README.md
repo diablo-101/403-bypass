@@ -168,7 +168,7 @@ Are you interested in web security and want to test your skills against potentia
             <li>
                 The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./header.sh -d domain.com -w header: value</code>
             </li>
-                        <p>Default Headers</p>
+                        <p><br>Default Headers</p>
                 <ul>
                     <li>X-Originating-IP: 127.0.0.1</li>
                     <li>X-Forwarded-For: 127.0.0.1</li>
