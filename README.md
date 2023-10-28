@@ -161,7 +161,7 @@ Are you interested in web security and want to test your skills against potentia
             <li>
                 The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./header.sh -d domain.com -w header: value</code>
             </li>
-                        <p><br>Default Headers</p>
+                        <p><br>Default Headers:</p>
                 <ul>
                     <li>X-Originating-IP: 127.0.0.1</li>
                     <li>X-Forwarded-For: 127.0.0.1</li>
@@ -191,9 +191,9 @@ Are you interested in web security and want to test your skills against potentia
                 You can use <code>methods.sh</code> to test different HTTP methods against a target URL.
             </li>
                         <li>
-                The script also includes a set of default methods. You can add your own methods using the -w option, like this ./method.sh -d domain.com -w METHOD
+                The script also includes a set of default methods. You can add your own methods using the <code>-w</code> option, like this <code>./method.sh -d domain.com -w METHOD</code>
             </li>
-            <p><br>Default Method</p>
+            <p><br>Default Method:</p>
             <ul>
   <li>GET</li>
   <li>POST</li>
