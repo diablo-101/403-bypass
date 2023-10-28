@@ -2,14 +2,181 @@
 
 Are you interested in web security and want to test your skills against potential 403 bypasses? If so, you've come to the right place! This project is a comprehensive suite of Bash scripts, meticulously designed for the purpose of probing 403 bypasses in web security. Whether you're a beginner or an expert, this tool will help you discover new ways to bypass 403 errors and access restricted resources.
 
-# Features
+<h1>Features</h1>
+<ul>
+    <li>
+        This tool offers four different scripts, each with its own unique functionality and options.
+    </li>
+</ul>
+<ol type="1">
+    <li><h3>method-header.sh</h3>
+        <ul>
+            <li>
+                You can use <code>method-header.sh</code> to test different HTTP methods, headers, HTTP protocol and HTTP versions work together against the target URL.
+            </li>
+            <li>
+                The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./method-header -d domain.com -w header: value</code>
+            </li>
+        </ul>
+        <ol type="a">
+            <li>
+                <h4>HTTP Method</h4>
+                <p>The script supports a wide range of HTTP methods:</p>
+                <ol type="I">
+                    <li>
+                        Standard methods: GET, POST, PUT, DELETE, OPTIONS, HEAD
+                    </li>
+                    <li>
+                        WebDAV methods: COPY, LOCK, MKCOL, MOVE, PROPFIND, PROPPATCH, UNLOCK
+                    </li>
+                    <li>
+                        Versioning methods: CHECKIN, CHECKOUT, LABEL, MERGE, REPORT, UPDATE
+                    </li>
+                    <li>
+                        Others: ACL, BASELINE-CONTROL, CONNECT, MKACTIVITY, MKWORKSPACE, ORDERPATCH, PATCH, SEARCH, TRACE, UNCHECKOUT, ARBITRARY, HACK, INVENTED, VERSION-CONTROL,FOO
+                    </li>
+                </ol>
+            </li>
+            <li>
+                <h4>HTTP Headers</h4>
+                <p>The script includes a set of default headers and values that are commonly used in HTTP requests:</p>
+                <ol type="I">
+                    <li>
+                        <h5>Default Headers</h5>
+                        <ul>
+                            <li>Client-IP</li>
+                            <li>Cluster-Client-IP</li>
+                            <li>Connection</li>
+                            <li>Content-Length</li>
+                            <li>Forwarded-For</li>
+                            <li>Host</li>
+                            <li>Referer</li>
+                            <li>True-Client-IP</li>
+                            <li>User-Agent</li>
+                            <li>X-Custom-IP-Authorization</li>
+                            <li>X-Forwarded</li>
+                            <li>X-Forwarded-For</li>
+                            <li>X-Forwarded-Port</li>
+                            <li>X-Original-URL</li>
+                            <li>X-Originating-IP</li>
+                            <li>X-ProxyUser-Ip</li>
+                            <li>X-Remote-Addr</li>
+                            <li>X-Remote-IP</li>
+                            <li>X-Rewrite-URL</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h5>Default values</h5>
+                        <ul>
+                            <li>0</li>
+                            <li>0177.0000.0000.0001</li>
+                            <li>0x7F000001</li>
+                            <li>10.0.0.0</li>
+                            <li>10.0.0.1</li>
+                            <li>127.0.0.1</li>
+                            <li>127.0.0.1:443</li>
+                            <li>127.0.0.1:80</li>
+                            <li>127.1</li>
+                            <li>172.16.0.0</li>
+                            <li>172.16.0.1</li>
+                            <li>192.168.1.0</li>
+                            <li>192.168.1.1</li>
+                            <li>2130706433</li>
+                            <li>443</li>
+                            <li>454</li>
+                            <li>8080</li>
+                            <li>close</li>
+                            <li>Close, Accept</li>
+                            <li>Close, Accept-Application</li>
+                            <li>Close, Accept-Charset</li>
+                            <li>Close, Accepted</li>
+                            <li>Close, Accept-Encoding</li>
+                            <li>Close, Accept-Encodxng</li>
+                            <li>Close, Accept-Language</li>
+                            <li>Close, Accept-Ranges</li>
+                            <li>Close, Accept-Version</li>
+                            <li>Close, Access-Control-Allow-Credentials</li>
+                            <li>Close, Access-Control-Allow-Headers</li>
+                            <li>Close, Access-Control-Allow-Methods</li>
+                            <li>Close, Access-Control-Allow-Origin</li>
+                            <li>Close, Access-Control-Expose-Headers</li>
+                            <li>http://localhost/</li>
+                            <li>localhost</li>
+                            <li>localhost:443</li>
+                            <li>localhost:80</li>
+                            <li>X-Bar</li>
+                            <li>X-FOO</li>
+                            <li>User Agent Values: 
+                                <ol type="i">
+                                    <li>operating system:
+                                        <ul>
+                                            <li>Android: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36</li>
+                                            <li>iOS (iPhone): Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1</li>
+                                            <li>Windows: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.</li>
+                                            <li>Mac OS X: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.</li>
+                                            <li>Linux: Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15.</li>
+                                        </ul>
+                                    </li>
+                                    <li>game play:
+                                        <ul>
+                                            <li>PlayStation: Mozilla/5.0 (PlayStation 4 1.70) AppleWebKit/536.26 (KHTML, like Gecko)</li>
+                                            <li>Xbox: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10553</li>
+                                        </ul>
+                                    </li>
+                                    <li>IOT:
+                                        <ul>
+                                            <li>Apple TV: AppleTV6,2/12.0.1</li>
+                                            <li>Amazon Fire TV: Dalvik/2.1.0 (Linux; U; Android 5.1.1; AFTS Build/LVY48F)</li>
+                                            <li>Roku Ultra: Roku4640X/DVP-7.70 (297.70E04154A)</li>
+                                            <li>Google Chromecast: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36 CrKey/1.5.16041</li>
+                                        </ul>
+                                    </li>
+                                </ol>
+                            </li>
+                            </ul>
+                    </li>
+                </ol>
+            </li>
+            <li><h4>HTTP Protocols</h4>
+                <ul>
+                    <li>
+                        The script supports both HTTP and HTTPS protocols.
+                    </li>
+                </ul>
+            </li>
+            <li><h4>HTTP Versions</h4>
+                <ul>
+                    <li>
+                        The script supports HTTP versions 1.0, 1.1, and 2.
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </li>
+    <li><h3>headers.sh</h3>
+        <ul>
+            <li>
+                You can use <code>headers.sh</code> to fuzz various headers with different values against a target URL.
+            </li>
+        </ul>
+    </li>
+    <li><h3>user-agent-fuzz.sh</h3>
+        <ul>
+            <li>
+                You can use <code>user-agent-fuzz.sh</code> to fuzz the user-agent header with different values against a target URL.
+            </li>
+        </ul>
+    </li>
+    <li><h3>methods.sh</h3>
+        <ul>
+            <li>
+                You can use <code>methods.sh</code> to test different HTTP methods against a target URL.
+            </li>
+        </ul>
+    </li>
+</ol>
 
-- This tool offers four different scripts, each with its own unique functionality and options.
-- You can use `method-header.sh` to test different HTTP methods, headers, HTTP protocol and HTTP versions work together against the target URL.
-- You can use `headers.sh` to fuzz various headers with different values against a target URL.
-- You can use `user-agent-fuzz.sh` to fuzz the user-agent header with different values against a target URL.
-- You can use `methods.sh` to test different HTTP methods against a target URL.
-- For an in-depth understanding of the features offered by this tool, I invite you to visit my Medium website. The link provided will guide you to a wealth of information tailored to enhance your user experience and broaden your knowledge about the tool's capabilities. Your journey to mastery begins with a single [Click](https://medium.com/@diablo1/bypassing-403-forbidden-a-guide-for-cybersecurity-professionals-7b2225991595).
+For an in-depth understanding of the features offered by this tool, I invite you to visit my Medium website. The link provided will guide you to a wealth of information tailored to enhance your user experience and broaden your knowledge about the tool's capabilities. Your journey to mastery begins with a single [Click](https://medium.com/@diablo1/bypassing-403-forbidden-a-guide-for-cybersecurity-professionals-7b2225991595).
 
 # Installation
 
