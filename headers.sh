@@ -91,21 +91,7 @@ then
 "True-Client-IP: 127.0.0.1"
 "Cluster-Client-IP: 127.0.0.1"
 "X-ProxyUser-Ip: 127.0.0.1"
-"Host: localhost"
-"Host"
-"User-Agent: Mozilla/5.0 (PlayStation 4 1.70) AppleWebKit/536.26 (KHTML, like Gecko)"
-"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; Xbox; Xbox One) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10553"
-"User-Agent: Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Mobile Safari/537.36"
-"User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 13_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Mobile/15E148 Safari/604.1"
-"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537."
-"User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605."
-"User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:15.0) Gecko/20100101 Firefox/15."
-"User-Agent: AppleTV6,2/12.0.1"
-"User-Agent: Roku4640X/DVP-7.70 (297.70E04154A)"
-"User-Agent: Dalvik/2.1.0 (Linux; U; Android 5.1.1; AFTS Build/LVY48F)"
-"User-Agent: Mozilla/5.0 (X11; Linux armv7l) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/31.0.1650.0 Safari/537.36 CrKey/1.5.16041"
-"User-Agent"
-"Referer: http://localhost/")
+"Host: localhost")
 else
     mapfile -t headers < $headers_file
 fi
