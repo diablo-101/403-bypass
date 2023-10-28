@@ -15,7 +15,7 @@ Are you interested in web security and want to test your skills against potentia
                 You can use <code>method-header.sh</code> to test different HTTP methods, headers, HTTP protocol and HTTP versions work together against the target URL.
             </li>
             <li>
-                The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./method-header.sh -d domain.com -w                header: value</code>
+                The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./method-header.sh -d domain.com -w header: value</code>
             </li>
         </ul>
         <ol type="a">
