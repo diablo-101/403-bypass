@@ -182,7 +182,9 @@ For an in-depth understanding of the features offered by this tool, I invite you
 
 To install this tool, simply follow these steps:
 
-   * ```git clone https://github.com/diiablo00/403-bypass```
+   * ```
+     git clone https://github.com/diiablo00/403-bypass
+     ```
    * ```cd 403-bypass```
    * ```chmod +x *.sh```
 
