@@ -190,6 +190,19 @@ Are you interested in web security and want to test your skills against potentia
             <li>
                 You can use <code>methods.sh</code> to test different HTTP methods against a target URL.
             </li>
+                        <li>
+                The script also includes a set of default methods. You can add your own methods using the -w option, like this ./method.sh -d domain.com -w METHOD
+            </li>
+            <p><br>Default Method</p>
+            <ul>
+  <li>GET</li>
+  <li>POST</li>
+  <li>PUT</li>
+  <li>DELETE</li>
+  <li>TRACE</li>
+  <li>OPTIONS</li>
+  <li>PATCH</li>
+</ul>
         </ul>
     </li>
 </ol>
