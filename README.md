@@ -182,18 +182,18 @@ For an in-depth understanding of the features offered by this tool, I invite you
 
 To install this tool, simply follow these steps:
 
-   * `git clone https://github.com/diiablo00/403-bypass`
-   * `cd 403-bypass`
-   * `chmod +x *.sh`
+   * ```git clone https://github.com/diiablo00/403-bypass```
+   * ```cd 403-bypass```
+   * ```chmod +x *.sh```
 
 # Usage
 
 To use this tool, simply run the desired script with the appropriate options. For example:
 
-* `./method-header.sh -h`
-* `./headers.sh -h`
-* `./user-agent-fuzz.sh -h`
-* `./methods.sh -h`
+* ```./method-header.sh -h```
+* ```./headers.sh -h```
+* ```./user-agent-fuzz.sh -h```
+* ```./methods.sh -h```
 
 You can also view the help menu of each script by using the `-h` option.
 
