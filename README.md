@@ -183,6 +183,9 @@ Are you interested in web security and want to test your skills against potentia
             <li>
                 You can use <code>user-agent-fuzz.sh</code> to fuzz the user-agent header with different values against a target URL.
             </li>
+            <li>
+                It does not have a default User Agent list
+            </li>
         </ul>
     </li>
     <li><h3>methods.sh</h3>
