@@ -15,7 +15,7 @@ Are you interested in web security and want to test your skills against potentia
                 You can use <code>method-header.sh</code> to test different HTTP methods, headers, HTTP protocol and HTTP versions work together against the target URL.
             </li>
             <li>
-                The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./method-header -d domain.com -w header: value</code>
+                The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./method-header.sh -d domain.com -w                     header: value</code>
             </li>
         </ul>
         <ol type="a">
@@ -165,6 +165,24 @@ Are you interested in web security and want to test your skills against potentia
             <li>
                 You can use <code>user-agent-fuzz.sh</code> to fuzz the user-agent header with different values against a target URL.
             </li>
+            <li>
+                The script also includes a set of default values for these headers. You can add your own headers and values using the <code>-w</code> option, like this <code>./header.sh -d domain.com -w                         header: value</code>
+            </li>
+                        <p>Default Headers</p>
+                <ul>
+                    <li>X-Originating-IP: 127.0.0.1</li>
+                    <li>X-Forwarded-For: 127.0.0.1</li>
+                    <li>X-Forwarded: 127.0.0.1</li>
+                    <li>Forwarded-For: 127.0.0.1</li>
+                    <li>X-Remote-IP: 127.0.0.1</li>
+                    <li>X-Remote-Addr: 127.0.0.1</li>
+                    <li>X-ProxyUser-Ip: 127.0.0.1</li>
+                    <li>X-Original-URL: 127.0.0.1</li>
+                    <li>Client-IP: 127.0.0.1</li>
+                    <li>True-Client-IP: 127.0.0.1</li>
+                    <li>Cluster-Client-IP: 127.0.0.1</li>
+                    <li>Host: localhost</li>
+                </ul>
         </ul>
     </li>
     <li><h3>methods.sh</h3>
